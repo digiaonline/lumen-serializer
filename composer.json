@@ -10,7 +10,7 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "jms/serializer": "^1.0@dev"
+    "jms/serializer": "~1.0@dev"
   },
   "require-dev": {
     "laravel/lumen-framework": "~5.1@dev"
