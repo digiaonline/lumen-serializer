@@ -1,23 +1,24 @@
 {
-  "name": "nordsoftware/lumen-serializer",
-  "description": "Serializer module for the Lumen framework.",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Danijel Maricic",
-      "email": "danijel.maricic@nordsoftware.com"
+    "name": "nordsoftware/lumen-serializer",
+    "description": "Serializer module for the Lumen framework.",
+    "keywords": ["laravel", "lumen", "jms", "serializer"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Danijel Maricic",
+            "email": "danijel.maricic@nordsoftware.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "jms/serializer": "~1.0@dev"
+    },
+    "require-dev": {
+        "laravel/lumen-framework": "~5.1@dev"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nord\\Lumen\\Serializer\\": "src"
+        }
     }
-  ],
-  "minimum-stability": "dev",
-  "require": {
-    "jms/serializer": "~1.0@dev"
-  },
-  "require-dev": {
-    "laravel/lumen-framework": "~5.1@dev"
-  },
-  "autoload": {
-    "psr-4": {
-      "Nord\\Lumen\\Serializer\\": "src"
-    }
-  }
 }
